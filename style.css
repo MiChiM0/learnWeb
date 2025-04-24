@@ -1,0 +1,46 @@
+h1 {
+    color: rgb(23, 24, 26);
+    text-align: center;
+  }
+
+    
+  #tsparticles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    z-index: -1; /* behind everything */
+  }
+
+
+  .square2 {
+
+    width: 1500px;
+    height: 10px;
+    background-color: #be69e84b;
+    border-radius: 100%;
+    margin: 0px;
+    position: relative;
+    transform: translate(0px,-950px);
+    
+  }
+  
+  .square {
+
+    width: 1200px;
+    height: 1000px;
+    background-color: #0404042d;
+    border-radius: 0%;
+    margin: 0px;
+    position: relative;
+    transform: translate(140px,-950px);
+  }
+  
+ .center {
+
+  transform: translate(0px, 60px);
+
+ }
+  
